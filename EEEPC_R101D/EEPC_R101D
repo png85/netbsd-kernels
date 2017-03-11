@@ -293,7 +293,7 @@ acpiwmi*	at acpi?		# ACPI WMI Mapper
 
 # Mainboard devices
 #aibs*		at acpi?		# ASUSTeK AI Booster hardware monitor
-asus*		at acpi?		# ASUS hotkeys
+#asus*		at acpi?		# ASUS hotkeys
 attimer*	at acpi?		# AT Timer
 #com*		at acpi?		# Serial communications interface
 #fdc*		at acpi?		# Floppy disk controller
