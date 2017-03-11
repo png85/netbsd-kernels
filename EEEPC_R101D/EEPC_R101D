@@ -292,7 +292,7 @@ acpiwdrt*	at acpi?		# ACPI Watchdog Resource Table
 acpiwmi*	at acpi?		# ACPI WMI Mapper
 
 # Mainboard devices
-aibs*		at acpi?		# ASUSTeK AI Booster hardware monitor
+#aibs*		at acpi?		# ASUSTeK AI Booster hardware monitor
 asus*		at acpi?		# ASUS hotkeys
 attimer*	at acpi?		# AT Timer
 #com*		at acpi?		# Serial communications interface
