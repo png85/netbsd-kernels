@@ -680,19 +680,19 @@ options 	ATADEBUG
 wd*	at atabus? drive ? flags 0x0000
 
 # ATAPI bus support
-atapibus* at atapi?
+#atapibus* at atapi?
 
 
 # ATA RAID configuration support, as found on some Promise controllers.
-pseudo-device ataraid
-ld*	at ataraid? vendtype ? unit ?
+#pseudo-device ataraid
+#ld*	at ataraid? vendtype ? unit ?
 
 # ATAPI devices
 # flags have the same meaning as for IDE drives.
-cd*	at atapibus? drive ? flags 0x0000	# ATAPI CD-ROM drives
-sd*	at atapibus? drive ? flags 0x0000	# ATAPI disk drives
-st*	at atapibus? drive ? flags 0x0000	# ATAPI tape drives
-uk*	at atapibus? drive ? flags 0x0000	# ATAPI unknown
+#cd*	at atapibus? drive ? flags 0x0000	# ATAPI CD-ROM drives
+#sd*	at atapibus? drive ? flags 0x0000	# ATAPI disk drives
+#st*	at atapibus? drive ? flags 0x0000	# ATAPI tape drives
+#uk*	at atapibus? drive ? flags 0x0000	# ATAPI unknown
 
 
 # Miscellaneous mass storage devices
