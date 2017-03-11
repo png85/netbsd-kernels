@@ -768,38 +768,38 @@ athn*	at pci? dev ? function ?	# Atheros AR9k (802.11a/g/n)
 #xge*	at pci? dev ? function ?	# Neterion (S2io) Xframe-I 10GbE
 
 # PCMCIA network interfaces
-an*	at pcmcia? function ?		# Aironet PC4500/PC4800 (802.11)
-awi*	at pcmcia? function ?		# BayStack 650/660 (802.11FH/DS)
-cnw*	at pcmcia? function ?		# Xircom/Netwave AirSurfer
-cs*	at pcmcia? function ?		# CS89xx Ethernet
-ep*	at pcmcia? function ?		# 3Com 3c589 and 3c562 Ethernet
-malo*	at pcmcia? function ?		# Marvell Libertas
-mbe*	at pcmcia? function ?		# MB8696x based Ethernet
-ne*	at pcmcia? function ?		# NE2000-compatible Ethernet
-ray*	at pcmcia? function ?		# Raytheon Raylink (802.11)
-sm*	at pcmcia? function ?		# Megahertz Ethernet
+#an*	at pcmcia? function ?		# Aironet PC4500/PC4800 (802.11)
+#awi*	at pcmcia? function ?		# BayStack 650/660 (802.11FH/DS)
+#cnw*	at pcmcia? function ?		# Xircom/Netwave AirSurfer
+#cs*	at pcmcia? function ?		# CS89xx Ethernet
+#ep*	at pcmcia? function ?		# 3Com 3c589 and 3c562 Ethernet
+#malo*	at pcmcia? function ?		# Marvell Libertas
+#mbe*	at pcmcia? function ?		# MB8696x based Ethernet
+#ne*	at pcmcia? function ?		# NE2000-compatible Ethernet
+#ray*	at pcmcia? function ?		# Raytheon Raylink (802.11)
+#sm*	at pcmcia? function ?		# Megahertz Ethernet
 # tr at pcmcia has problems with Cardbus bridges
 #tr*	at pcmcia? function ?		# TROPIC based Token-Ring
-wi*	at pcmcia? function ?		# Lucent/Intersil WaveLan IEEE (802.11)
-xirc*	at pcmcia? function ?		# Xircom CreditCard Ethernet
-com*	at xirc?
-xi*	at xirc?
+#wi*	at pcmcia? function ?		# Lucent/Intersil WaveLan IEEE (802.11)
+#xirc*	at pcmcia? function ?		# Xircom CreditCard Ethernet
+#com*	at xirc?
+#xi*	at xirc?
 
-mhzc*	at pcmcia? function ?		# Megahertz Ethernet/Modem combo cards
-com*	at mhzc?
-sm*	at mhzc?
+#mhzc*	at pcmcia? function ?		# Megahertz Ethernet/Modem combo cards
+#com*	at mhzc?
+#sm*	at mhzc?
 
 # CardBus network cards
-ath*	at cardbus? function ?	# Atheros 5210/5211/5212 802.11
-athn*	at cardbus? function ?	# Atheros AR9k (802.11a/g/n) - UNTESTED
-atw*	at cardbus? function ?	# ADMtek ADM8211 (802.11)
-ex*	at cardbus? function ?	# 3Com 3C575TX
-fxp*	at cardbus? function ?	# Intel i8255x
-ral*	at cardbus? function ?	# Ralink Technology RT25x0 802.11a/b/g
-re*	at cardbus? function ?	# Realtek 8139C+/8169/8169S/8110S
-rtk*	at cardbus? function ?	# Realtek 8129/8139
-rtw*	at cardbus? function ?	# Realtek 8180L (802.11)
-tlp*	at cardbus? function ?	# DECchip 21143
+#ath*	at cardbus? function ?	# Atheros 5210/5211/5212 802.11
+#athn*	at cardbus? function ?	# Atheros AR9k (802.11a/g/n) - UNTESTED
+#atw*	at cardbus? function ?	# ADMtek ADM8211 (802.11)
+#ex*	at cardbus? function ?	# 3Com 3C575TX
+#fxp*	at cardbus? function ?	# Intel i8255x
+#ral*	at cardbus? function ?	# Ralink Technology RT25x0 802.11a/b/g
+#re*	at cardbus? function ?	# Realtek 8139C+/8169/8169S/8110S
+#rtk*	at cardbus? function ?	# Realtek 8129/8139
+#rtw*	at cardbus? function ?	# Realtek 8180L (802.11)
+#tlp*	at cardbus? function ?	# DECchip 21143
 
 # MII/PHY support
 acphy*	at mii? phy ?			# DAltima AC101 and AMD Am79c874 PHYs
