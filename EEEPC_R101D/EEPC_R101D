@@ -342,7 +342,7 @@ ppb*	at pci? dev ? function ?	# PCI-PCI bridges
 
 ichlpcib* at pci? dev ? function ?	# Intel ICH PCI-LPC w/ timecounter,
 					# watchdog and Speedstep and HPET
-fwhrng* at ichlpcib?		# Intel 82802 FWH Random Number Generator
+#fwhrng* at ichlpcib?		# Intel 82802 FWH Random Number Generator
 #hpet*	at ichlpcib?
 
 aapic*	at pci? dev ? function ?	# AMD 8131 IO apic
