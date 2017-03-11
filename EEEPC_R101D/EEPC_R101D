@@ -356,12 +356,12 @@ isa0	at pcib?
 isa0	at ichlpcib?
 
 # CardBus bridge support
-cbb*		at pci? dev ? function ?
-cardslot*	at cbb?
+#cbb*		at pci? dev ? function ?
+#cardslot*	at cbb?
 
 # CardBus bus support
-cardbus*	at cardslot?
-pcmcia* 	at cardslot?
+#cardbus*	at cardslot?
+#pcmcia* 	at cardslot?
 
 # Console Devices
 
