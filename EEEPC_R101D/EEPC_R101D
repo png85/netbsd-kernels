@@ -874,12 +874,12 @@ ums*	at uhidev? reportid ?
 wsmouse* at ums? mux 0
 
 # USB Touchscreens
-uts*	at uhidev? reportid ?
-wsmouse* at uts? mux 0
+#uts*	at uhidev? reportid ?
+#wsmouse* at uts? mux 0
 
 # USB eGalax touch-panel
-uep*	at uhub? port ?
-wsmouse* at uep? mux 0
+#uep*	at uhub? port ?
+#wsmouse* at uep? mux 0
 
 # USB Keyboards
 ukbd*	at uhidev? reportid ?
