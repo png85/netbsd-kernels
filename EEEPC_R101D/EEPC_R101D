@@ -421,32 +421,32 @@ ubsec*	at pci? dev ? function ?	# Broadcom 5501/5601/580x/582x
 # Serial Devices
 
 # PCI serial interfaces
-com*	at puc? port ?			# 16x50s on "universal" comm boards
-cy*	at pci? dev ? function ?	# Cyclades Cyclom-Y serial boards
-cz*	at pci? dev ? function ?	# Cyclades-Z multi-port serial boards
+#com*	at puc? port ?			# 16x50s on "universal" comm boards
+#cy*	at pci? dev ? function ?	# Cyclades Cyclom-Y serial boards
+#cz*	at pci? dev ? function ?	# Cyclades-Z multi-port serial boards
 
 # PCMCIA serial interfaces
-com*	at pcmcia? function ?		# Modems and serial cards
+#com*	at pcmcia? function ?		# Modems and serial cards
 
-pcmcom* at pcmcia? function ?		# PCMCIA multi-port serial cards
-com*	at pcmcom? slave ?		# ...and the slave devices
+#pcmcom* at pcmcia? function ?		# PCMCIA multi-port serial cards
+#com*	at pcmcom? slave ?		# ...and the slave devices
 
 # CardBus serial interfaces
-com*	at cardbus? function ?	# Modems and serial cards
+#com*	at cardbus? function ?	# Modems and serial cards
 
 # ISA serial interfaces
 #options 	COM_HAYESP		# adds Hayes ESP serial board support
-com0	at isa? port 0x3f8 irq 4	# Standard PC serial ports
-com1	at isa? port 0x2f8 irq 3
+#com0	at isa? port 0x3f8 irq 4	# Standard PC serial ports
+#com1	at isa? port 0x2f8 irq 3
 
 # Parallel Printer Interfaces
 
 # PCI parallel printer interfaces
-lpt*	at puc? port ?			# || ports on "universal" comm boards
+#lpt*	at puc? port ?			# || ports on "universal" comm boards
 
 # ISA parallel printer interfaces
-lpt0	at isa? port 0x378 irq 7	# standard PC parallel ports
-lpt1	at isa? port 0x278
+#lpt0	at isa? port 0x378 irq 7	# standard PC parallel ports
+#lpt1	at isa? port 0x278
 
 # Hardware monitors
 
