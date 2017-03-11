@@ -399,8 +399,8 @@ sysbeep0	at pcppi?
 i915drmkms* 	at pci? dev ? function ?
 intelfb* 	at intelfbbus?
 
-radeon* 	at pci? dev ? function ?
-radeondrmkmsfb* at radeonfbbus?
+#radeon* 	at pci? dev ? function ?
+#radeondrmkmsfb* at radeonfbbus?
 
 #nouveau* 	at pci? dev ? function ?
 #nouveaufb* 	at nouveaufbbus?
