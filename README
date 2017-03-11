@@ -1,4 +1,4 @@
 This contains a bunch of NetBSD kernel configurations.
 
-EEEPC_R101D - Asus eeePC R101D (>= 7.1_RC2)
-
+EEEPC_R101D - Asus eeePC R101D (amd64, >= 7.1_RC2)
+PCM5820     - Advantech PCM5820 single board computer (i386, >= 7.0)
