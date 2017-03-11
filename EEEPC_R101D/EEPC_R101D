@@ -892,8 +892,8 @@ ucycom* at uhidev? reportid ?
 uhid*	at uhidev? reportid ?
 
 # USB LCDs and USB-VGA adaptors
-udl*	at uhub? port ?		# DisplayLink DL-1x0/1x5
-wsdisplay* at udl?
+#udl*	at uhub? port ?		# DisplayLink DL-1x0/1x5
+#wsdisplay* at udl?
 
 # USB Printer
 ulpt*	at uhub? port ? configuration ? interface ?
