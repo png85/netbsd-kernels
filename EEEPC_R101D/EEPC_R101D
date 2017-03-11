@@ -314,7 +314,7 @@ pcppi*		at acpi?		# AT-style speaker sound
 #thinkpad*	at acpi?		# IBM/Lenovo Thinkpad hotkeys
 #tpm*		at acpi?		# ACPI TPM (Experimental)
 #ug*		at acpi?		# Abit uGuru Hardware monitor
-wb*		at acpi?		# Winbond W83L518D SD/MMC reader
+#wb*		at acpi?		# Winbond W83L518D SD/MMC reader
 sdmmc*		at wb?			# SD/MMC bus
 wmidell*	at acpiwmibus?		# Dell WMI mappings
 wmieeepc*	at acpiwmibus?		# Asus Eee PC WMI mappings
