@@ -1169,18 +1169,18 @@ video*	at videobus?			# Analog capture interface
 # SD/MMC/SDIO Controller and Device support
 
 # SD/MMC controller
-sdhc*	at pci?		# SD Host Controller
-rtsx*	at pci?		# Realtek RTS5209/RTS5229 Card Reader
-sdhc*	at cardbus?	# SD Host Controller
-sdmmc*	at sdhc?	# SD/MMC bus
-sdmmc*	at rtsx?	# SD/MMC bus
+#sdhc*	at pci?		# SD Host Controller
+#rtsx*	at pci?		# Realtek RTS5209/RTS5229 Card Reader
+#sdhc*	at cardbus?	# SD Host Controller
+#sdmmc*	at sdhc?	# SD/MMC bus
+#sdmmc*	at rtsx?	# SD/MMC bus
 
-ld*	at sdmmc?
+#ld*	at sdmmc?
 
 
 # Middle Digital, Inc. PCI-Weasel serial console board control
 # devices (watchdog timer, etc.)
-weasel* at pci?
+#weasel* at pci?
 
 # Virtio devices
 virtio*	at pci? dev ? function ?	# Virtio PCI device
