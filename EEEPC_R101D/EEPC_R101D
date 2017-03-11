@@ -450,8 +450,8 @@ ubsec*	at pci? dev ? function ?	# Broadcom 5501/5601/580x/582x
 
 # Hardware monitors
 
-amdnb_misc* at pci?			# AMD NB Misc Configuration
-amdtemp* at amdnb_misc?			# AMD CPU Temperature sensors
+#amdnb_misc* at pci?			# AMD NB Misc Configuration
+#amdtemp* at amdnb_misc?			# AMD CPU Temperature sensors
 
 # Winbond LPC Super I/O
 #wbsio*	at isa? port 0x2e
@@ -473,17 +473,17 @@ amdtemp* at amdnb_misc?			# AMD CPU Temperature sensors
 #smscmon*	at iic? addr 0x2d	# (alternate address)
 
 # AMD 768 and 8111 power/ACPI controllers
-amdpm*	at pci? dev ? function ?	# RNG and SMBus 1.0 interface
+#amdpm*	at pci? dev ? function ?	# RNG and SMBus 1.0 interface
 #iic*	at amdpm?			# sensors below are on this bus
 
 # NVIDIA nForce2/3/4 SMBus controller
-nfsmbc* at pci? dev ? function ?
-nfsmb*	at nfsmbc?
-iic*	at nfsmb?
+#nfsmbc* at pci? dev ? function ?
+#nfsmb*	at nfsmbc?
+#iic*	at nfsmb?
 
 # Intel PIIX4 power management controllers
-piixpm* at pci? dev ? function ?	# PIIX4 compatible PM controller
-iic*	at piixpm?			# SMBus on PIIX4
+#piixpm* at pci? dev ? function ?	# PIIX4 compatible PM controller
+#iic*	at piixpm?			# SMBus on PIIX4
 
 # Intel ICH SMBus controller
 ichsmb* at pci? dev ? function ?
