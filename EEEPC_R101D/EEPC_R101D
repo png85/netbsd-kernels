@@ -903,7 +903,7 @@ umodem* at uhub? port ? configuration ?
 ucom*	at umodem?
 
 # Option N.V. Wireless WAN modems
-uhso*	at uhub? port ? configuration ?
+#uhso*	at uhub? port ? configuration ?
 
 # USB Mass Storage
 umass*	at uhub? port ? configuration ? interface ?
@@ -914,27 +914,27 @@ uaudio* at uhub? port ? configuration ?
 uaudio* at usbifif?
 
 # USB MIDI
-umidi*	at uhub? port ? configuration ?
+#umidi*	at uhub? port ? configuration ?
 
 # USB IrDA
 # USB-IrDA bridge spec
-uirda*	at uhub? port ? configuration ? interface ?
-irframe* at uirda?
+#uirda*	at uhub? port ? configuration ? interface ?
+#irframe* at uirda?
 
-stuirda* at uhub? port ? configuration ? interface ?
-irframe* at stuirda?
+#stuirda* at uhub? port ? configuration ? interface ?
+#irframe* at stuirda?
 
 # SigmaTel STIr4200 USB/IrDA Bridge
-ustir*	at uhub? port ?
-irframe* at ustir?
+#ustir*	at uhub? port ?
+#irframe* at ustir?
 
 # KingSun/DonShine USB/IrDA Bridge
-udsir*	at uhub? port ?
-irframe* at udsir?
+#udsir*	at uhub? port ?
+#irframe* at udsir?
 
 # Windows Media Center IR transceiver
-irmce*	at uhub? port ?
-cir*	at irmce?
+#irmce*	at uhub? port ?
+#cir*	at irmce?
 
 # USB Ethernet adapters
 aue*	at uhub? port ?		# ADMtek AN986 Pegasus based adapters
