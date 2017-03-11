@@ -216,7 +216,7 @@ options 	IPFILTER_COMPAT # Compat for IP-Filter
 options 	SCSIVERBOSE	# human readable SCSI error messages
 #options 	USBVERBOSE	# verbose USB device autoconfig messages
 
-options 	NFS_BOOT_DHCP,NFS_BOOT_BOOTPARAM
+#options 	NFS_BOOT_DHCP,NFS_BOOT_BOOTPARAM
 
 #
 # wscons options
