@@ -305,7 +305,7 @@ hpet*		at acpihpetbus?		# High Precision Event Timer (table)
 hpet*		at acpinodebus?		# High Precision Event Timer (device)
 #joy*		at acpi?		# Joystick/Game port
 #lpt*		at acpi?		# Parallel port
-mpu*		at acpi?		# Roland MPU-401 MIDI UART
+#mpu*		at acpi?		# Roland MPU-401 MIDI UART
 pckbc*		at acpi?		# PC keyboard controller
 pcppi*		at acpi?		# AT-style speaker sound
 sony*		at acpi?		# Sony Notebook Controller
