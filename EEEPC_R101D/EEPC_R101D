@@ -598,25 +598,25 @@ iop*	at pci? dev ? function ?	# I/O processor
 
 
 # RAID controllers and devices
-aac*	at pci? dev ? function ?	# Adaptec AAC family
-amr*	at pci? dev ? function ?	# AMI/LSI Logic MegaRAID
-arcmsr* at pci? dev ? function ?	# Areca SATA RAID controllers
-cac*	at pci? dev ? function ?	# Compaq PCI array controllers
-ciss*	at pci? dev ? function ?	# HP Smart Array controllers
-icp*	at pci? dev ? function ?	# ICP-Vortex GDT & Intel RAID
-mlx*	at pci? dev ? function ?	# Mylex DAC960 & DEC SWXCR family
-twe*	at pci? dev ? function ?	# 3ware Escalade RAID controllers
-twa*	at pci? dev ? function ?	# 3ware Escalade 9xxx RAID controllers
+#aac*	at pci? dev ? function ?	# Adaptec AAC family
+#amr*	at pci? dev ? function ?	# AMI/LSI Logic MegaRAID
+#arcmsr* at pci? dev ? function ?	# Areca SATA RAID controllers
+#cac*	at pci? dev ? function ?	# Compaq PCI array controllers
+#ciss*	at pci? dev ? function ?	# HP Smart Array controllers
+#icp*	at pci? dev ? function ?	# ICP-Vortex GDT & Intel RAID
+#mlx*	at pci? dev ? function ?	# Mylex DAC960 & DEC SWXCR family
+#twe*	at pci? dev ? function ?	# 3ware Escalade RAID controllers
+#twa*	at pci? dev ? function ?	# 3ware Escalade 9xxx RAID controllers
 
-ld*	at aac? unit ?
-ld*	at amr? unit ?
-ld*	at cac? unit ?
-ld*	at icp? unit ?
-ld*	at twe? unit ?
-ld*	at twa? unit ?
-ld*	at mlx? unit ?
+#ld*	at aac? unit ?
+#ld*	at amr? unit ?
+#ld*	at cac? unit ?
+#ld*	at icp? unit ?
+#ld*	at twe? unit ?
+#ld*	at twa? unit ?
+#ld*	at mlx? unit ?
 
-icpsp*	at icp? unit ?			# SCSI pass-through
+#icpsp*	at icp? unit ?			# SCSI pass-through
 
 # IDE and related devices
 # PCI IDE controllers - see pciide(4) for supported hardware.
