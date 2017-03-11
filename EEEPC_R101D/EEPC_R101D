@@ -303,7 +303,7 @@ attimer*	at acpi?		# AT Timer
 #hpqlb*		at acpi?		# HP Quick Launch Buttons
 hpet*		at acpihpetbus?		# High Precision Event Timer (table)
 hpet*		at acpinodebus?		# High Precision Event Timer (device)
-joy*		at acpi?		# Joystick/Game port
+#joy*		at acpi?		# Joystick/Game port
 #lpt*		at acpi?		# Parallel port
 mpu*		at acpi?		# Roland MPU-401 MIDI UART
 pckbc*		at acpi?		# PC keyboard controller
