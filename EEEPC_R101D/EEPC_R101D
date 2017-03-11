@@ -319,7 +319,7 @@ pcppi*		at acpi?		# AT-style speaker sound
 #wmidell*	at acpiwmibus?		# Dell WMI mappings
 wmieeepc*	at acpiwmibus?		# Asus Eee PC WMI mappings
 #wmihp*		at acpiwmibus?		# HP WMI mappings
-wmimsi* 	at acpiwmibus?		# MSI WMI mappings
+#wmimsi* 	at acpiwmibus?		# MSI WMI mappings
 
 # Basic Bus Support
 
