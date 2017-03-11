@@ -297,7 +297,7 @@ acpiwmi*	at acpi?		# ACPI WMI Mapper
 attimer*	at acpi?		# AT Timer
 #com*		at acpi?		# Serial communications interface
 #fdc*		at acpi?		# Floppy disk controller
-fujbp*		at acpi?		# Fujitsu Brightness & Pointer
+#fujbp*		at acpi?		# Fujitsu Brightness & Pointer
 fujhk*		at acpi?		# Fujitsu Hotkeys
 #hpacel*	at acpi?		# HP 3D DriveGuard accelerometer
 #hpqlb*		at acpi?		# HP Quick Launch Buttons
