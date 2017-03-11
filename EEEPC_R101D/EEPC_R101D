@@ -976,21 +976,21 @@ uvscom* at uhub? port ?		# SUNTAC Slipper U VS-10U serial adapter
 ucom*	at uvscom? portno ?
 
 # RIM BlackBerry
-uberry* at uhub? port ?
+#uberry* at uhub? port ?
 
 # Apple iPad
-uipad* at uhub? port ?
+#uipad* at uhub? port ?
 
 # Diamond Multimedia Rio 500
-urio*	at uhub? port ?
+#urio*	at uhub? port ?
 
 # USB Handspring Visor
-uvisor* at uhub? port ?
-ucom*	at uvisor?
+#uvisor* at uhub? port ?
+#ucom*	at uvisor?
 
 # Kyocera AIR-EDGE PHONE
-ukyopon* at uhub? port ?
-ucom*	at ukyopon? portno ?
+#ukyopon* at uhub? port ?
+#ucom*	at ukyopon? portno ?
 
 # USB scanners
 uscanner* at uhub? port ?
@@ -1010,22 +1010,22 @@ zyd*	at uhub? port ?		# Zydas ZD1211
 usscanner* at uhub? port ?
 
 # Topfield TF5000PVR range of DVB recorders
-utoppy* at uhub? port ?
+#utoppy* at uhub? port ?
 
 # Y@P firmware loader
-uyap*	at uhub? port ?
+#uyap*	at uhub? port ?
 
 # D-Link DSB-R100 USB radio
-udsbr*	at uhub? port ?
-radio*	at udsbr?
+#udsbr*	at uhub? port ?
+#radio*	at udsbr?
 
 # USB Generic driver
 ugen*	at uhub? port ?
 
 # USB 3G datacards
-u3ginit* at uhub? port ?
-u3g*	at uhub? port ?
-ucom*	at u3g?
+#u3ginit* at uhub? port ?
+#u3g*	at uhub? port ?
+#ucom*	at u3g?
 
 # USB generic serial port (e.g., data over cellular)
 ugensa* at uhub? port ?
