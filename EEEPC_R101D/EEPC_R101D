@@ -557,44 +557,44 @@ iop*	at pci? dev ? function ?	# I/O processor
 # SCSI Controllers and Devices
 
 # PCI SCSI controllers
-adv*	at pci? dev ? function ?	# AdvanSys 1200[A,B], 9xx[U,UA] SCSI
-adw*	at pci? dev ? function ?	# AdvanSys 9x0UW[D], 3940U[2,3]W SCSI
-ahc*	at pci? dev ? function ?	# Adaptec [23]94x, aic78x0 SCSI
-ahd*	at pci? dev ? function ?	# Adaptec aic790x SCSI
-bha*	at pci? dev ? function ?	# BusLogic 9xx SCSI
-dpt*	at pci? dev ? function ?	# DPT SmartCache/SmartRAID
-iha*	at pci? dev ? function ?	# Initio INIC-940/950 SCSI
-isp*	at pci? dev ? function ?	# Qlogic ISP [12]0x0 SCSI/FibreChannel
-mfi*	at pci? dev ? function ?	# LSI MegaRAID SAS
-mly*	at pci? dev ? function ?	# Mylex AcceleRAID and eXtremeRAID
-mpt*	at pci? dev ? function ?	# LSILogic 9x9 and 53c1030 (Fusion-MPT)
-mpii*	at pci? dev ? function ?	# LSI Logic Fusion-MPT II
-pcscp*	at pci? dev ? function ?	# AMD 53c974 PCscsi-PCI SCSI
-siop*	at pci? dev ? function ?	# Symbios 53c8xx SCSI
-esiop*	at pci? dev ? function ?	# Symbios 53c875 and newer SCSI
+#adv*	at pci? dev ? function ?	# AdvanSys 1200[A,B], 9xx[U,UA] SCSI
+#adw*	at pci? dev ? function ?	# AdvanSys 9x0UW[D], 3940U[2,3]W SCSI
+#ahc*	at pci? dev ? function ?	# Adaptec [23]94x, aic78x0 SCSI
+#ahd*	at pci? dev ? function ?	# Adaptec aic790x SCSI
+#bha*	at pci? dev ? function ?	# BusLogic 9xx SCSI
+#dpt*	at pci? dev ? function ?	# DPT SmartCache/SmartRAID
+#iha*	at pci? dev ? function ?	# Initio INIC-940/950 SCSI
+#isp*	at pci? dev ? function ?	# Qlogic ISP [12]0x0 SCSI/FibreChannel
+#mfi*	at pci? dev ? function ?	# LSI MegaRAID SAS
+#mly*	at pci? dev ? function ?	# Mylex AcceleRAID and eXtremeRAID
+#mpt*	at pci? dev ? function ?	# LSILogic 9x9 and 53c1030 (Fusion-MPT)
+#mpii*	at pci? dev ? function ?	# LSI Logic Fusion-MPT II
+#pcscp*	at pci? dev ? function ?	# AMD 53c974 PCscsi-PCI SCSI
+#siop*	at pci? dev ? function ?	# Symbios 53c8xx SCSI
+#esiop*	at pci? dev ? function ?	# Symbios 53c875 and newer SCSI
 #options 	SIOP_SYMLED		# drive the act. LED in software
-trm*	at pci? dev ? function ?	# Tekram DC-395U/UW/F, DC-315/U SCSI
+#trm*	at pci? dev ? function ?	# Tekram DC-395U/UW/F, DC-315/U SCSI
 
 # PCMCIA SCSI controllers
-aic*	at pcmcia? function ?		# Adaptec APA-1460 SCSI
-esp*	at pcmcia? function ?		# Qlogic ESP406/FAS408 SCSI
-spc*	at pcmcia? function ?		# Fujitsu MB87030/MB89352 SCSI
+#aic*	at pcmcia? function ?		# Adaptec APA-1460 SCSI
+#esp*	at pcmcia? function ?		# Qlogic ESP406/FAS408 SCSI
+#spc*	at pcmcia? function ?		# Fujitsu MB87030/MB89352 SCSI
 
 # CardBus SCSI cards
-adv*	at cardbus? function ?	# AdvanSys 1200[A,B], 9xx[U,UA] SCSI
-ahc*	at cardbus? function ?	# Adaptec ADP-1480
+#adv*	at cardbus? function ?	# AdvanSys 1200[A,B], 9xx[U,UA] SCSI
+#ahc*	at cardbus? function ?	# Adaptec ADP-1480
 
 # SCSI bus support
-scsibus* at scsi?
+#scsibus* at scsi?
 
 # SCSI devices
-sd*	at scsibus? target ? lun ?	# SCSI disk drives
-st*	at scsibus? target ? lun ?	# SCSI tape drives
-cd*	at scsibus? target ? lun ?	# SCSI CD-ROM drives
-ch*	at scsibus? target ? lun ?	# SCSI autochangers
-ses*	at scsibus? target ? lun ?	# SCSI Enclosure Services devices
-ss*	at scsibus? target ? lun ?	# SCSI scanners
-uk*	at scsibus? target ? lun ?	# SCSI unknown
+#sd*	at scsibus? target ? lun ?	# SCSI disk drives
+#st*	at scsibus? target ? lun ?	# SCSI tape drives
+#cd*	at scsibus? target ? lun ?	# SCSI CD-ROM drives
+#ch*	at scsibus? target ? lun ?	# SCSI autochangers
+#ses*	at scsibus? target ? lun ?	# SCSI Enclosure Services devices
+#ss*	at scsibus? target ? lun ?	# SCSI scanners
+#uk*	at scsibus? target ? lun ?	# SCSI unknown
 
 
 # RAID controllers and devices
@@ -1188,7 +1188,7 @@ viomb*	at virtio?			# Virtio memory balloon device
 ld*	at virtio?			# Virtio disk device
 vioif*	at virtio?			# Virtio network device
 viornd*	at virtio?			# Virtio entropy device
-vioscsi* at virtio?			# Virtio SCSI device
+#vioscsi* at virtio?			# Virtio SCSI device
 
 # Pull in optional local configuration
 cinclude "arch/amd64/conf/GENERIC.local"
