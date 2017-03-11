@@ -1038,14 +1038,14 @@ ucom*	at ugensa?
 #irframe* at oboe?
 
 # PCI IEEE1394 controllers
-fwohci* at pci? dev ? function ?	# IEEE1394 Open Host Controller
+#fwohci* at pci? dev ? function ?	# IEEE1394 Open Host Controller
 
 # CardBus IEEE1394 controllers
-fwohci* at cardbus? function ?		# IEEE1394 Open Host Controller
+#fwohci* at cardbus? function ?		# IEEE1394 Open Host Controller
 
-ieee1394if* at fwohci?
-fwip*	at ieee1394if?			# IP over IEEE1394
-sbp*	at ieee1394if? euihi ? euilo ?
+#ieee1394if* at fwohci?
+#fwip*	at ieee1394if?			# IP over IEEE1394
+#sbp*	at ieee1394if? euihi ? euilo ?
 
 # Audio Devices
 
