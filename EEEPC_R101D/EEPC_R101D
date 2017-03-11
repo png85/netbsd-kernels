@@ -311,7 +311,7 @@ pcppi*		at acpi?		# AT-style speaker sound
 #sony*		at acpi?		# Sony Notebook Controller
 #spic*		at acpi?		# Sony Programmable I/O Controller
 #wsmouse*	at spic?		# mouse
-thinkpad*	at acpi?		# IBM/Lenovo Thinkpad hotkeys
+#thinkpad*	at acpi?		# IBM/Lenovo Thinkpad hotkeys
 #tpm*		at acpi?		# ACPI TPM (Experimental)
 ug*		at acpi?		# Abit uGuru Hardware monitor
 wb*		at acpi?		# Winbond W83L518D SD/MMC reader
