@@ -526,8 +526,8 @@ iic*	at ichsmb?
 
 # I2O devices
 iop*	at pci? dev ? function ?	# I/O processor
-iopsp*	at iop? tid ?			# SCSI/FC-AL ports
-ld*	at iop? tid ?			# block devices
+#iopsp*	at iop? tid ?			# SCSI/FC-AL ports
+#ld*	at iop? tid ?			# block devices
 # XXX dpti.c wants a processor type that is not assigned for x86-64
 #dpti*	at iop? tid 0			# DPT/Adaptec control interface
 
